@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind component;
+@tailwind utilities;
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-bg-color {
+    background-color: #F6F9FC;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(3, 0, 71, 0.09);
+}
+
+.inactive-color {
+    color: #7D879C;
+}
+
+.discounted-price {
+    color: #D23F57;
+}
+
+/* CategoryCard */
+.category-card {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(3, 0, 71, 0.09);
+}
+
+.category-card:hover {
+    box-shadow: 0px 8px 45px rgb(3 0 71 / 9%);
+}
+
+/* CategoryProductListOverview */
+.category-product-list-overview__class-item {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* ProductListCard */
+.product-list-card {
+    box-shadow: 0px 1px 3px rgba(3, 0, 71, 0.09);
+}
+
+.product-list-card:hover {
+    box-shadow: 0px 8px 45px rgb(3 0 71 / 9%);
+}
+
+.product-list-card__tag {
+    background-color: #D23F57;
+    color: #ffffff;
+}
+
+.product-list-card__icon {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.product-list-card__add-to-cart {
+    background-color: #D23F57;
+    color: #fff;
+}
+
+/* MiniCard */
+.mini-card__image {
+    border-radius: 3px;
+    transition: all 0.4s ease;
+}
+.mini-card__image:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Feature */
+.feature__item {
+    box-shadow: 0px 1px 3px rgba(3, 0, 71, 0.09);
+}
+
+.feature__item-text {
+    color: #7D879C;
+}
+
+.feature__item-icon {
+    width: 64px;
+    height: 64px;
+    background-color: #F3F5F9 !important;
+}
+
+/* Footer */
+.footer {
+    padding: 5rem 5rem;
+    background-color: #222935;
+}
+
+.footer__item-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__item-text {
+    color: #AEB4BE;
+    font-size: 14px;
+    margin: 0.3rem 0;
+}
+
+.footer__item-text > a:hover {
+    color: #F6F9FC;
+}
+
+.footer__item-software-link {
+    background-color: #161d2b;
+}
+
+.footer__channel {
+    color: #fff;
+}
+
+/* Carousel */
+.carousel-button-active {
+    background-color: #0F3460;
+    color: #fff;
+    cursor: pointer;
+}
+
+.carousel-button-inactive {
+    background-color: #DAE1E7;
+    color: #0F3460;
+    cursor: not-allowed;
+}
